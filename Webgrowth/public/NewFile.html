@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="HTML, CSS, JAVASCRIPT, WEB">
+<meta name="description" content="What is Web">
+<meta name="author" content="jinyong">
+<meta http-equiv="refresh" content="30">
+<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+<title>html스타일 </title>
+</head>
+<body style="background-color:powderblue;">
+ <input type="checkbox"> 
+ <input type="checkbox">  
+ <input type="checkbox">  
+ 
+ <hr style="width:100px; height:10px;">
+ 
+ <a href="#진용 "></a>
+ 
+ <pre>
+ <b>아주 먼 옛날</b>
+ <strong>우리는 하나의 먼지에 불과했다 </strong>
+ <i>과연 누가 우리를 만들었을까 </i>
+ <mark>누가 우리를 탄생시켰을까 </mark>
+ <del> 그것이 누가 되었든 그것이 과연 중요한 것일까 </del>
+ <ins> 정말로 중요한 것은 우리가 세상에 나타났다는 사실이다 </ins>
+ 
+ </pre>
+ 
+<p> &nbsp; </p>
+<p> &lt; </p>
+<p> &gt; </p>
+<p> &amp; </p>
+<p> &quot; </p>
+<p> &apos; </p>
+
+<a id="진용 ">윤진용은 누구:</a>
+
+<dl>
+  <dt>진용</dt>
+  <dd>컴퓨터공학과 12191632 </dd>
+    
+ 
+</dl>
+
+
+<img src="coding.jpg" alt="coding" usemap="#coding" style="width:width; height:height;">
+<map name="coding">
+   <area shape="rect" coors="0,0,82,126" alt="code">
+   </map>
+ 
+ 
+<a href="1.html" target="_blank">1.html.blank</a>
+<a href="1.html" target="_self">1.html.self</a>
+<a href="1.html" target="_top">1.html.top</a>
+<a href="1.html" target="_parent">1.html.parent</a>
+
+
+
+<table border="1">
+<tr>
+   <th>이름 </th>
+   <th>성적 </th>
+</tr>
+<tr>
+<tr>
+   <td>윤진용</td>
+   <td>A+</td>
+</tr>
+<tr>
+   <td>이지고 </td>
+   <td>A</td>
+</tr>
+
+
+</table>
+
+
+<table style="width:100%; border-collapse:collapse;">
+<caption>학생 성적 </caption>
+<tr style="background-color:green;">
+   <th>이름 </th>
+   <th>성적 </th>
+</tr>
+<tr>
+<tr>
+   <td rowspan="2">윤진용</td>
+   <td>A+</td>
+</tr>
+<tr>
+   
+   <td colspan="2">A</td>
+</tr>
+
+
+</table>
+
+<div style="background-color:yellow; color:blue; padding:20px; margin:20px;">
+  <h2>html</h2>
+  <p> 웹 문서를 만들기 위해 사용하는 기본적인 프로그래밍 언어</p></div>
+  
+  <div style="background-color: blue; border: 1px solid black;">
+  <h1> MY <span style= "color:red"> important </span> heading</h1>
+  
+  </div>
+  
+  
+  <iframe src="1.html" height="100%" width="100%"></iframe>
+  <p> <a href="1.html" target="inner"><em>1.html</em></a>
+  
+  <audio src="https://youtu.be/nC2-nJEXL2U" autoplay controls loop muted preload="auto" >
+  </audio>
+ <audio controls autoplay>
+   <source src="https://youtu.be/nC2-nJEXL2U" type="audio/ogg">
+   </audio>
+   <video width="100%" height="240" controls>
+     <source src="https://youtu.be/nC2-nJEXL2U" type="video/mp4">
+   </video>
+
+<form action="#" method="get">
+아이디:<input type="text" name="id" size="10" maxlength="8"><br>
+이름:<input type="text" name="name" value="윤진용 "><br>
+암호:<input type="password" name="pwd"><br>
+<input type="checkbox" name="chR" value="computer" checked>컴퓨터
+<input type="checkbox" name="chR" value="mouse" > 마우스 <br>
+<input type="radio" name="fruits" value="apple">사과
+<input type="radio" name="fruits" value="pear">배
+<input type="radio" name="fruits" value="orange">오렌지
+<input type="hidden" name="mysecretvalue" value="secret">
+<input type="reset">
+<input type="submit">
+
+</form>
+
+<form action="#" enctype="multipart/form-data">
+<input type="file" accept="image/jpg,image/gif" name="filename">
+<input type="submit" value="파일 전송 ">
+
+</form>
+
+<form action="#" method="post">
+<div>
+텍스트 상자 입력<br>
+<textarea cols="50" rows="5" name="mycontents">초기</textarea>
+</div>
+<div> <input type="image" src="images/img_button.png" alt="submit"></div>
+
+</form>
+
+
+<form action="#" method="get">
+<p>
+<input type="button" value="일반버튼입니다." onclick="alert('일반버튼클릭')">
+</p>
+<p>
+<button type="button" onclick="alert('그림 넣은 버튼 ')">
+  <img src="images/img_button.png">버튼에 그림넣기 
+</button>
+<button type="reset">취소입니다.</button>
+<button type="submit">전송입니다.</button>
+
+
+</form>
+
+
+<form action="http://www.myserver.com/select.jsp" method="get" name="frm1">
+<select multiple size="4" name="component_select">
+   <option selected value="com1">Component1</option>
+   <option selected value="com2">Component2</option>
+   <option value="Com3">Component3</option>
+   <option value="Com4">Component4</option>
+   <option value="Com5">Component5</option>
+</select>
+
+<select name="phone">
+<optgroup label="phone number">
+  <option value="010">010</option>
+  <option value="070">070</option>
+  <option value="080">080</option>
+</optgroup>
+
+</select>
+
+
+
+
+</form>
+
+
+
+<form action="#" method="post">
+  <fieldset>
+    <legend>회원정보 </legend>
+         이름:<input type="text" name="name"><br>
+         Email:<input type="text" name="email"><br>
+         <label for="male">Male</label>
+         <input type="radio" name="gender" id="male" value="male">
+         
+  
+  
+  
+  </fieldset>
+</form>
+
+
+<form action="#" method="get">
+Select your favoite color: <input type="color" name="favcolor">
+Birthday: <input type="date" name="baby">
+Birthday: <input type="datetime-local" name="babytime">
+E-maill: <input type="email" name="usremail">
+<input type="submit">
+
+Quantity (between 1 and 5):
+<input type="number" name="quantiity" min="1" max="5" value="1" step="1">
+<input type="range" name="points" min="0" max="10" value="5">
+<input type="search" name="searchgoogle">
+<input type="tel" name="usrtel">
+<input type="url" name="homepage">
+
+
+
+</form>
+
+</body>
+</html>
